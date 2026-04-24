@@ -1,12 +1,17 @@
-# 电影评论情感分类系统
-英文电影评论情感分类，输出 positive / negative
+# 🎬 电影评论情感分类系统
+English Movie Review Sentiment Classification
 
-## 模型
-distilbert-base-uncased-finetuned-sst-2-english (英文情感分类)
+---
 
-## 功能
-- 输入多条英文电影评论
-- 自动判断情感倾向
-- 输出分类结果与置信度
+## 📌 项目简介
+基于预训练BERT模型实现的英文电影评论情感分类工具，输入英文评论文本，自动判断情感倾向（`positive`/`negative`）并输出置信度。
 
-## 运行方式
+## 🛠️ 技术栈
+- Python 3.8+
+- ModelScope 模型库
+- BERT 英文情感分类模型 (`damo/nlp_bert_sentiment-analysis_english-base`)
+
+## 🚀 快速开始
+### 1. 安装依赖
+```bash
+pip install -r requirements.txt
